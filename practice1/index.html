@@ -15,10 +15,18 @@
         body {
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             background: #cd9575;
             font-family: 'Playfair Display', serif;
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
         }
 
         .title {
@@ -29,6 +37,35 @@
             text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.3);
             letter-spacing: 2px;
             animation: fadeIn 2s ease-in-out;
+        }
+
+        .nav-button {
+            background: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out 0.5s both;
+        }
+
+        .nav-button:hover {
+            background: #333333;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
 
         @keyframes fadeIn {
@@ -57,6 +94,9 @@
     </style>
 </head>
 <body>
-    <h1 class="title">One Battle After Another.</h1>
+    <div class="content-container">
+        <h1 class="title">One Battle After Another.</h1>
+        <a href="../practice2/index2.html" class="nav-button">View Film Details</a>
+    </div>
 </body>
 </html>
