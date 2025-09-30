@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Battle After Another - Film Summary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #cd9575;
+            font-family: 'Cinzel', serif;
+            padding: 40px;
+            display: flex;
+            align-items: stretch;
+            gap: 40px;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .summary-section {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .summary-section h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #2c1810;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .director {
+            font-size: 1.2rem;
+            color: #6b4423;
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .summary-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #3a2517;
+            text-align: justify;
+        }
+
+        .summary-text p {
+            margin-bottom: 20px;
+        }
+
+        .cast {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #cd9575;
+        }
+
+        .cast h3 {
+            font-size: 1.4rem;
+            color: #2c1810;
+            margin-bottom: 15px;
+        }
+
+        .cast ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .cast li {
+            font-size: 1rem;
+            color: #3a2517;
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .cast li::before {
+            content: "★";
+            position: absolute;
+            left: 0;
+            color: #cd9575;
+        }
+
+        .image-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            max-width: 500px;
+            height: 600px;
+            background: linear-gradient(45deg, #f0f0f0, #d0d0d0);
+            border: 3px solid #666;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #333;
+            font-size: 1.2rem;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-placeholder .actors {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .image-placeholder .description {
+            font-style: italic;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                padding: 20px;
+            }
+            
+            .container {
+                flex-direction: column;
+            }
+            
+            .summary-section h1 {
+                font-size: 2rem;
+            }
+            
+            .image-placeholder {
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="summary-section">
+            <h1>One Battle After Another</h1>
+            <div class="director">Directed by Paul Thomas Anderson</div>
+            
+            <div class="summary-text">
+                <p>In Paul Thomas Anderson's latest masterpiece, "One Battle After Another" (2025), we are transported into the gritty underbelly of 1970s Los Angeles, where two unlikely allies find themselves entangled in a web of corruption, loyalty, and moral ambiguity.</p>
+
+                <p>Leonardo DiCaprio delivers a tour-de-force performance as Marcus Kellerman, a disillusioned private investigator haunted by his past military service in Vietnam. When a routine missing persons case leads him to uncover a conspiracy involving powerful oil executives and government officials, Marcus must confront his own demons while navigating the treacherous landscape of corporate espionage.</p>
+
+                <p>Benicio Del Toro brings his trademark intensity to the role of Carlos Mendoza, a mysterious whistleblower with ties to both the Mexican underworld and American intelligence agencies. As the two men forge an uneasy partnership, they discover that their personal battles mirror the larger conflicts tearing apart American society in the post-Watergate era.</p>
+
+                <p>Anderson's meticulous attention to period detail and his signature long-take cinematography create an immersive experience that captures both the paranoia and the fading optimism of the 1970s. The film explores themes of brotherhood, betrayal, and the cost of seeking truth in a world built on lies.</p>
+
+                <p>With its intricate plotting and powerhouse performances, "One Battle After Another" stands as a worthy addition to Anderson's acclaimed filmography, offering both a gripping thriller and a profound meditation on the nature of justice in an unjust world.</p>
+            </div>
+
+            <div class="cast">
+                <h3>Principal Cast</h3>
+                <ul>
+                    <li>Leonardo DiCaprio as Marcus Kellerman</li>
+                    <li>Benicio Del Toro as Carlos Mendoza</li>
+                    <li>Amy Adams as Detective Sarah Chen</li>
+                    <li>Oscar Isaac as Vincent Torres</li>
+                    <li>Tilda Swinton as Margaret Blackwood</li>
+                    <li>John Turturro as Frank Romano</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="image-placeholder">
+                <div class="actors">Leonardo DiCaprio & Benicio Del Toro</div>
+                <div class="description">Black & White Portrait</div>
+                <div style="margin-top: 20px; font-size: 0.9rem; color: #888;">
+                    [Image placeholder - In a real implementation, this would contain an actual black and white photograph of Leonardo DiCaprio and Benicio Del Toro from the film]
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
